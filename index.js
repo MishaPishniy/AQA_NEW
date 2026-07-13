@@ -2,6 +2,5 @@ avzsavcsAC;
 CanvasCaptureMediaStreamTrackSACC;
 CanvasCaptureMediaStreamTrackSACCACSS;
 CASCASC;
-caxcsac
-CanvasCaptureMediaStreamTrackSACCACSS
-
+caxcsac;
+CanvasCaptureMediaStreamTrackSACCACSS;
