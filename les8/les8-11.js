@@ -1,0 +1,18 @@
+let matrix = [
+    [1, 2, 3], 
+    [4, 5, 6], 
+    [7, 8, 9]]
+console.log(matrix[0][0])
+console.log(matrix[0][2])
+console.log(matrix[2][0])
+console.log(matrix[1][1])
+
+
+for (let i=0; i<matrix.length; i++){
+    for(let j=0; j<matrix[i].length; j++){
+        console.log(matrix[i][j])
+    }
+}
+let number = [ 11,1 ,8,3]
+console.log( typeof number)
+console.log( Array.isArray(number))
