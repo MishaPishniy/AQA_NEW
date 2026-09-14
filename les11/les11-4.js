@@ -12,8 +12,8 @@ getUser()
     console.log(error);
   });
 
-  /////////
-  async function showOrderDetails() {
+/////////
+async function showOrderDetails() {
   try {
     const user = await getUser();
     const orders = await getOrders(user.id);

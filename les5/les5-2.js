@@ -14,60 +14,59 @@ default:
 }
    */
 
-let day = "Вівторок";
+let day = 'Вівторок';
 
 switch (day) {
-  case "Понеділок":
-    console.log("Понеділок");
+  case 'Понеділок':
+    console.log('Понеділок');
     break;
-  case "Вівторок":
-    console.log("Вівторок");
+  case 'Вівторок':
+    console.log('Вівторок');
     break;
-  case "Середа":
-    console.log("Середа");
+  case 'Середа':
+    console.log('Середа');
     break;
   default:
-    console.log("Все інше");
+    console.log('Все інше');
 }
 
-let day = "Субота";
+let day = 'Субота';
 
 switch (day) {
-  case "Понеділок":
-  case "Вівторок":
-  case "Середа":
-    console.log("Робочі");
+  case 'Понеділок':
+  case 'Вівторок':
+  case 'Середа':
+    console.log('Робочі');
     break;
-  case "Субота":
-  case "Неділя":
-    console.log("Вихідні");
+  case 'Субота':
+  case 'Неділя':
+    console.log('Вихідні');
     break;
   default:
-    console.log("Все інше");
+    console.log('Все інше');
 }
 
 let num = 1;
 switch (num) {
-  case "1":
-    console.log("1 рядок");
+  case '1':
+    console.log('1 рядок');
     break;
 
   case 1:
-    console.log("Число");
+    console.log('Число');
     break;
 }
 
 let price = 11;
 
 switch (true) {
-
-  case (price <= 5 ):
-    console.log("нічого не має");
+  case price <= 5:
+    console.log('нічого не має');
     break;
-  case (price <= 10):
-    console.log("чай");
+  case price <= 10:
+    console.log('чай');
     break;
-  case (price > 10 ):
-    console.log("Є Кофе");
+  case price > 10:
+    console.log('Є Кофе');
     break;
 }

@@ -1,12 +1,11 @@
 const Hello = function () {
-    console.log("Hello")
-}
+  console.log('Hello');
+};
 
-Hello()
+Hello();
 
+const sum = function (a, b) {
+  return a + b;
+};
 
-const sum = function  (a,b) {
-    return a +b 
-}
-
-console.log(sum(4,5))
+console.log(sum(4, 5));

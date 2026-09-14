@@ -1,5 +1,5 @@
-const fruits = ["apple", "banana" , "orange"]
+const fruits = ['apple', 'banana', 'orange'];
 
-for (let fruit in  fruits){
-    console.log(fruit)
+for (const fruit in fruits) {
+  console.log(fruit);
 }

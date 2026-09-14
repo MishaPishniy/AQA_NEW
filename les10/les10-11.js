@@ -1,12 +1,11 @@
 class Car {
-    drive () {
-        console.log("Drive")
-    }
+  drive() {
+    console.log('Drive');
+  }
 }
 //Car.prototype
 
-const car1 = new Car()
-const car2 = new Car()
+const car1 = new Car();
+const car2 = new Car();
 
-console.log(car1.drive === car2.drive)
-
+console.log(car1.drive === car2.drive);

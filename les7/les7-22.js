@@ -1,6 +1,6 @@
 function getUserName(user) {
   if (!user) {
-    throw new Error("Користувача не передано");
+    throw new Error('Користувача не передано');
   }
 
   return user.name;

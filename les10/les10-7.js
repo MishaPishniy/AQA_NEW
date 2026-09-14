@@ -1,20 +1,17 @@
-class CoffeMachin{
-    makeCoffe() {
-        this.#HotWater(),
-        this.#addCoffe(),
-        console.log("Кофе готовий")
-    }
+class CoffeMachin {
+  makeCoffe() {
+    (this.#HotWater(), this.#addCoffe(), console.log('Кофе готовий'));
+  }
 
-    #HotWater() {
-        console.log("Грію воду")
-    }
+  #HotWater() {
+    console.log('Грію воду');
+  }
 
-    #addCoffe(){
-        console.log("Додаю каву")
-    }
-
+  #addCoffe() {
+    console.log('Додаю каву');
+  }
 }
 
-const coffe = new CoffeMachin()
+const coffe = new CoffeMachin();
 
-coffe.makeCoffe()
+coffe.makeCoffe();

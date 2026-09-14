@@ -1,10 +1,10 @@
 function sayHello() {
-  console.log("Привіт!");
+  console.log('Привіт!');
 }
 
 const myFunction = sayHello;
 
-myFunction(); 
+myFunction();
 
-sayHello 
-sayHello()
+sayHello;
+sayHello();

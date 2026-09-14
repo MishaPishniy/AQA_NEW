@@ -4,7 +4,7 @@ class User {
   }
 
   get name() {
-   return this._name
+    return this._name;
   }
 
   set UserName(newName) {
@@ -12,7 +12,7 @@ class User {
   }
 }
 
-const user = new User("Михайло");
+const user = new User('Михайло');
 console.log(user.name);
-user.UserName = "Alex";
+user.UserName = 'Alex';
 console.log(user.name);

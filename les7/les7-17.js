@@ -9,7 +9,7 @@ function createBankAccount(initialBalance) {
 
     withdraw(amount) {
       if (amount > balance) {
-        console.log("Недостатньо коштів");
+        console.log('Недостатньо коштів');
         return;
       }
 
@@ -19,7 +19,7 @@ function createBankAccount(initialBalance) {
 
     getBalance() {
       return balance;
-    }
+    },
   };
 }
 

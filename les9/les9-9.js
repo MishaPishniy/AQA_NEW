@@ -1,16 +1,15 @@
 const person = {
-  name: "Jhon",
+  name: 'Jhon',
   age: 30,
   adress: {
-    city: "New York",
-  }
+    city: 'New York',
+  },
 };
-console.log(person)
+console.log(person);
 //const user = {...person};
 const user = structuredClone(person);
 
-user.name = "Alice"
-user.adress.city = "Los Angeles"
-console.log(user)
-console.log(person)
-
+user.name = 'Alice';
+user.adress.city = 'Los Angeles';
+console.log(user);
+console.log(person);

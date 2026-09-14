@@ -6,4 +6,4 @@ function add(a, b) {
   return a + b;
 }
 
-console.log(calculate(5, 3, add)); 
+console.log(calculate(5, 3, add));

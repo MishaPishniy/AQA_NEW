@@ -6,5 +6,4 @@ function processUser(name, callback) {
   callback(name);
 }
 
-processUser("Михайло", sayHello);
-
+processUser('Михайло', sayHello);

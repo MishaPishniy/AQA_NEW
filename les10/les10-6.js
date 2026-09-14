@@ -4,7 +4,7 @@ class Animal {
   }
 
   Golos() {
-    console.log("Тварини дають голос");
+    console.log('Тварини дають голос');
   }
 }
 

@@ -1,21 +1,16 @@
-(
-  function () {
-  console.log("Функція виконалася одразу");
-}
-)
-();
-
+(function () {
+  console.log('Функція виконалася одразу');
+})();
 
 ////
 (() => {
-  console.log("Стрілкова IIFE виконалася");
+  console.log('Стрілкова IIFE виконалася');
 })();
 
 ////
 (function (name) {
   console.log(`Привіт, ${name}!`);
-})("Михайло");
-
+})('Михайло');
 
 ///
 const result = (function (a, b) {
@@ -24,13 +19,11 @@ const result = (function (a, b) {
 
 console.log(result);
 
-
-
 /////
 
 (function () {
-  const name = "MIsha";
+  const name = 'MIsha';
   console.log(`Привіт, ${name}!`);
 })();
 
-console.log(name)
+console.log(name);

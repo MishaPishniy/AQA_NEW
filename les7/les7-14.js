@@ -4,8 +4,8 @@ function createGreeting(name) {
   };
 }
 
-const greetingMisha = createGreeting("Міша");
-const greetingAnna = createGreeting("Анна");
+const greetingMisha = createGreeting('Міша');
+const greetingAnna = createGreeting('Анна');
 
 greetingMisha();
 greetingAnna();

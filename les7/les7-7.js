@@ -6,4 +6,4 @@ function processMessage(text, callback) {
   callback(text);
 }
 
-processMessage("JavaScript — це цікаво", printMessage);
+processMessage('JavaScript — це цікаво', printMessage);

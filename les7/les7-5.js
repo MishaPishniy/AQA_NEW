@@ -6,7 +6,7 @@ const result = calculate(10, 5, (a, b) => {
   return a * b;
 });
 
-console.log(result); 
+console.log(result);
 
 //////
 const result = calculate(10, 5, (a, b) => a * b);

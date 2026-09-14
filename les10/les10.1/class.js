@@ -4,10 +4,9 @@ export class Animal {
   }
 
   Golos() {
-    console.log("Тварини дають голос");
+    console.log('Тварини дають голос');
   }
 }
-
 
 export class Cat extends Animal {
   Golos() {

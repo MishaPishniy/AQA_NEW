@@ -1,6 +1,6 @@
 function divide(a, b) {
   if (b === 0) {
-    throw new Error("На нуль ділити не можна");
+    throw new Error('На нуль ділити не можна');
   }
 
   return a / b;
@@ -15,10 +15,10 @@ try {
 
 function checkAge(age) {
   if (age < 0) {
-    throw new Error("Вік не може бути від’ємним");
+    throw new Error('Вік не може бути від’ємним');
   }
 
-  console.log("Перевірку пройдено");
+  console.log('Перевірку пройдено');
   return age;
 }
 

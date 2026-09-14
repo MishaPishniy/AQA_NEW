@@ -1,5 +1,5 @@
 function sayHello() {
-  console.log("Привіт!");
+  console.log('Привіт!');
 }
 
 function executeCallback(callback) {

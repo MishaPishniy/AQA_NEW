@@ -1,15 +1,16 @@
 async function name() {
-    const message = await name()
+  const message = await name();
 
-    console.log(message)
+  console.log(message);
 }
 
 name();
 
-console.log(result)
+console.log(result);
 
-
- function name() {
-    return Promise.resolve("hello")
+function name() {
+  return Promise.resolve('hello');
 }
-name().then((message)=>{console.log(message)})
+name().then((message) => {
+  console.log(message);
+});

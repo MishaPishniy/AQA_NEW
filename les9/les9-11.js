@@ -1,6 +1,6 @@
 const user = {
-    name:"Alice",
-    age: 30
-}
+  name: 'Alice',
+  age: 30,
+};
 
-console.log(user?.adrres?.city)
+console.log(user?.adrres?.city);

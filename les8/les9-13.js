@@ -7,19 +7,18 @@
     Відсортуйте створений масив (від меншого до більшого)
     Виведіть обидва масиви в консоль */
 
+const numbersList = [1, 10, 14, 2, 4, 5, 43, 34];
+const newNumbersList = [...numbersList];
 
-    const  numbersList = [1,10,14,2,4,5,43,34]
-    const newNumbersList = [...numbersList];
-
-    for (let i=0; i<newNumbersList.length - 1; i++){
-        for (let j=0; j<newNumbersList.length -1 - i; j++){
-            if(newNumbersList[j] > newNumbersList[j+1]){
-                let temp = newNumbersList[j]
-                newNumbersList[j] = newNumbersList[j+1]
-                newNumbersList[j+1] = temp
-            }
-        }  
+for (let i = 0; i < newNumbersList.length - 1; i++) {
+  for (let j = 0; j < newNumbersList.length - 1 - i; j++) {
+    if (newNumbersList[j] > newNumbersList[j + 1]) {
+      const temp = newNumbersList[j];
+      newNumbersList[j] = newNumbersList[j + 1];
+      newNumbersList[j + 1] = temp;
     }
+  }
+}
 
-    console.log(numbersList)
-    console.log(newNumbersList)
+console.log(numbersList);
+console.log(newNumbersList);

@@ -1,13 +1,13 @@
 const user = {
-    name:"Alice"
-}
+  name: 'Alice',
+};
 
-const work  = {
-    name: "Google"
-}
+const work = {
+  name: 'Google',
+};
 
 const userInfo = {
-    ...user,
-    ...work
-}
-console.log(userInfo)
+  ...user,
+  ...work,
+};
+console.log(userInfo);

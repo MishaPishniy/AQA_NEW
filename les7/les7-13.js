@@ -1,5 +1,5 @@
 function outer() {
-  const message = "Привіт";
+  const message = 'Привіт';
 
   function inner() {
     console.log(message);

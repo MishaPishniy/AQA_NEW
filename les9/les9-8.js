@@ -1,9 +1,9 @@
 const person = {
-  name: "Jhon",
+  name: 'Jhon',
   age: 30,
 };
 for (const key in person) {
-    console.log(`This ${key} is ${person[key]}`);
+  console.log(`This ${key} is ${person[key]}`);
 }
 
 for (const [key, value] of Object.entries(person)) {

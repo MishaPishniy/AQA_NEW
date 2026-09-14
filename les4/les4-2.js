@@ -1,23 +1,22 @@
-let name = "Hello ${str}"
+const name = 'Hello ${str}';
 //'Hello'
-let a = 1
-let b =2
-let str = `Hello 
+const a = 1;
+const b = 2;
+const str = `Hello 
 ffsf ${a + b}
 sfssff
-sffs`
-console.log(str)
+sffs`;
+console.log(str);
 
-let c ="3"
-let res = c + " " + name
-console.log(res)
+const c = '3';
+const res = c + ' ' + name;
+console.log(res);
 
-let name2 = ' Привіт це моє ім\'я : "ша" '
-let text = "hello world"
-let upText = text.toUpperCase()
-console.log(text[text.length-1])
-console.log(text[0])
-console.log(text.toUpperCase())
-console.log(text.includes("lll"))
-console.log(upText)
-
+const name2 = ' Привіт це моє ім\'я : "ша" ';
+const text = 'hello world';
+const upText = text.toUpperCase();
+console.log(text[text.length - 1]);
+console.log(text[0]);
+console.log(text.toUpperCase());
+console.log(text.includes('lll'));
+console.log(upText);

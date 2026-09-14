@@ -1,7 +1,7 @@
 const user = {
-  name: "Alice",
+  name: 'Alice',
   work: {
-    name: "Google:",
+    name: 'Google:',
 
     showWork() {
       console.log(this.name);
@@ -10,6 +10,6 @@ const user = {
 };
 
 user.work.showWork();
-console.log("age" in user)
+console.log('age' in user);
 
 // this === user.work

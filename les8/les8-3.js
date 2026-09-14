@@ -1,5 +1,5 @@
-const fruits = ["apple", "banana" , "orange"]
+const fruits = ['apple', 'banana', 'orange'];
 
-for (let i=0 ; i<fruits.length; i++){
-    console.log(` Index ${i}: ${fruits[i]}`)
+for (let i = 0; i < fruits.length; i++) {
+  console.log(` Index ${i}: ${fruits[i]}`);
 }

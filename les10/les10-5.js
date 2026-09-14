@@ -25,7 +25,7 @@ class Dog extends Animal {
     console.log(`Собака гавкає`);
   }
 }
-const dogs = new Dog("Rexs", "Blak");
+const dogs = new Dog('Rexs', 'Blak');
 console.log(dogs.name);
 console.log(dogs.color);
 
@@ -39,8 +39,8 @@ class Cat extends Animal {
   }
 }
 
-const dogs = new Dog("Rexs");
-const animals = new Animal("Тварини");
+const dogs = new Dog('Rexs');
+const animals = new Animal('Тварини');
 
 animals.eat();
 animals.brak();
@@ -48,13 +48,8 @@ animals.brak();
 dogs.brak();
 dogs.eat();
 
+const Animals = [new Animal(), new Dog(), new Cat()];
 
-const Animals = [
-    new Animal(),
-    new Dog(),
-    new Cat()
-]
-
-for ( const zvyk of Animals) {
-    Animals.Golos()
+for (const zvyk of Animals) {
+  Animals.Golos();
 }
